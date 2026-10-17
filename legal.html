@@ -85,7 +85,7 @@
 
     <section id="privacy-policy">
 <h2>MusicianNote Privacy Policy</h2>
-<p>Last updated: 2026-10-11</p>
+<p>Last updated: 2026-10-17</p>
 <p>MusicianNote is a music-practice app provided by chocolemon. It is designed for teenage and adult musicians aged 13 and over. This policy explains on-device processing, advertising, and information you choose to share with us or other services.</p>
 <p>Release applicability: this notice describes the current age-range controls in <strong>Global Settings &gt; General</strong>, including Android 0.0.3 (38). Earlier builds with an age setting may suppress ads for unselected or under-13 users or use different menu locations. Updating this notice does not change older installed versions. Advertising availability and test-ad behavior depend on the installed build.</p>
 <h3>Practice, recordings, and files</h3>
@@ -106,7 +106,7 @@
 <p>Where Google makes a privacy-options form available, open <strong>Settings &gt; About &gt; Ad privacy choices</strong> to review or change your choices. In the EEA, UK, and Switzerland, this can include refusing or withdrawing advertising consent. In supported US states, this can include opting out of sale or sharing for advertising under the applicable definitions. The choices displayed depend on the region and message; an absent form is not a statement that you have no privacy rights. Contact us if a required choice is missing or cannot be opened.</p>
 <p>Declining advertising consent does not remove the app's core free practice functions. Ads may be restricted or unavailable. Choosing to watch a rewarded ad is separate from consenting to data processing; a reward is not offered for granting privacy consent.</p>
 <h3>Rewarded access and purchases</h3>
-<p>When eligible, you may choose to watch a rewarded ad for <strong>6 hours of banner-ad removal</strong>, or, while Ad-Free is active, another rewarded ad for <strong>12 hours of Premium access with banner-ad removal</strong>. A benefit is granted only after the advertising SDK reports that the reward was earned. Ad availability is not guaranteed.</p>
+<p>When eligible, you may choose to watch a rewarded ad for <strong>6 hours of banner-ad removal starting when that reward is earned</strong>. While Ad-Free is active, earning another rewarded ad replaces the remaining Ad-Free time with <strong>24 hours of Premium access with banner-ad removal</strong>, starting when the Premium reward is earned. Reward durations do not stack. Premium grants earned under the previous 12-hour policy keep their original expiry. A benefit is granted only after the advertising SDK reports that the reward was earned. Ad availability is not guaranteed.</p>
 <p>The app stores a local reward record, expiry time, and integrity/time-check information in protected device storage. Production rewards currently use device-local validation, not server-side reward verification. Verification builds use Google demo ads and separate reward storage; completing a demo ad does not create a production reward. Test ads still use Google's SDK and are not an assurance of no data processing.</p>
 <p>In-app purchases and subscriptions are currently disabled. RevenueCat integration code is present but is not enabled in the current advertising-only configuration. The app does not currently use RevenueCat to process purchases or subscriptions. We will update this notice before enabling a materially different payment setup.</p>
 <h3>Sharing, surveys, and support</h3>
@@ -187,7 +187,7 @@
     <section id="open-source-notices">
       <h2>Open Source Software Notices</h2>
       <p id="taglib-source">MusicianNote includes a modified version of TagLib, originally developed by Scott Wheeler and contributors. The covered TagLib source is available under MPL 1.1, with the original license alternatives preserved. <a href="https://github.com/chocolemon0623-dev/musiciannote-taglib">Source code, modifications and build instructions</a> and <a href="https://github.com/chocolemon0623-dev/musiciannote-taglib/releases">versioned source downloads</a> are provided separately from the application source.</p>
-      <p>Notices collected from MusicianNote 0.0.3 (build 36) Android and iOS release artifacts, native audio libraries, CocoaPods acknowledgements and Android release dependencies.</p>
+      <p>Notices collected from MusicianNote 0.0.3 (build 42) Android and iOS release artifacts, native audio libraries, CocoaPods acknowledgements and Android release dependencies.</p>
       <details><summary>View third-party notices</summary>
         <pre>abseil-cpp
 
@@ -37181,6 +37181,11 @@ com.amazon.device:amazon-appstore-sdk:3.0.5
 Program Materials License
 https://developer.amazon.com/support/legal/pml
 --------------------------------------------------------------------------------
+com.android.billingclient:billing:8.3.0
+
+Android Software Development Kit License
+https://developer.android.com/studio/terms.html
+--------------------------------------------------------------------------------
 com.getkeepsafe.relinker:relinker:1.4.5
 
 The Apache Software License, Version 2.0
@@ -37311,12 +37316,32 @@ com.google.oboe:oboe:1.10.0
 The Oboe License
 https://github.com/google/oboe/blob/main/LICENSE
 --------------------------------------------------------------------------------
+com.revenuecat.purchases:purchases-hybrid-common:18.22.2
+
+The MIT License (MIT)
+http://opensource.org/licenses/MIT
+--------------------------------------------------------------------------------
+com.revenuecat.purchases:purchases-store-amazon:10.14.1
+
+The MIT License (MIT)
+http://opensource.org/licenses/MIT
+--------------------------------------------------------------------------------
+com.revenuecat.purchases:purchases:10.14.1
+
+The MIT License (MIT)
+http://opensource.org/licenses/MIT
+--------------------------------------------------------------------------------
 com.squareup.okio:okio-jvm:3.4.0
 
 The Apache Software License, Version 2.0
 http://www.apache.org/licenses/LICENSE-2.0.txt
 --------------------------------------------------------------------------------
 com.squareup.okio:okio:3.4.0
+
+The Apache Software License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0.txt
+--------------------------------------------------------------------------------
+com.tom-roush:pdfbox-android:2.0.27.0
 
 The Apache Software License, Version 2.0
 http://www.apache.org/licenses/LICENSE-2.0.txt
